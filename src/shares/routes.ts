@@ -1,6 +1,6 @@
 import { RouteItem } from './types';
 
-const route: RouteItem[] = [
+const routes: RouteItem[] = [
   {
     title: 'WHO WE ARE',
     href: '#',
@@ -57,4 +57,4 @@ const route: RouteItem[] = [
   },
 ];
 
-export default route;
+export default routes;
