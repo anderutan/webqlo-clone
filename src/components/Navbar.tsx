@@ -11,7 +11,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { width } = useWindowDimensions();
   return (
-    <nav className='fixed top-0 left-0 right-0 w-full bg-gradient-to-r from-neutral-900 via-neutral-700 to-neutral-900 text-white'>
+    <nav className='fixed top-0 left-0 right-0 w-full bg-gradient-to-r from-neutral-900 via-neutral-700 to-neutral-900 text-white z-30'>
       <div className='w-full flex items-center py-1 px-4 z-10 laptop:px-11 laptop:justify-between'>
         {width < 1280 && (
           <Hamburger toggled={isOpen} size={25} toggle={setIsOpen} />
