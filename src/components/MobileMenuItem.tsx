@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { type RouteItem } from '../shares/types';
 import { MdArrowDropDown } from 'react-icons/md';
 
-const MenuItem = ({ title, href, subroute }: RouteItem) => {
+const MobileMenuItem = ({ title, href, subroute }: RouteItem) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -38,4 +38,4 @@ const MenuItem = ({ title, href, subroute }: RouteItem) => {
   );
 };
 
-export default MenuItem;
+export default MobileMenuItem;
