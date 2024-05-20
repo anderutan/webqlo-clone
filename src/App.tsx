@@ -1,4 +1,6 @@
 import Navbar from './components/Navbar';
+import ContactUs from './sections/ContactUs';
+import Footer from './sections/Footer';
 import Hero from './sections/Hero';
 import OurClient from './sections/OurClient';
 import WhatWeDo from './sections/WhatWeDo';
@@ -12,6 +14,8 @@ function App() {
       <WhatWeDo />
       <WhoWeAre />
       <OurClient />
+      <ContactUs />
+      <Footer />
     </div>
   );
 }
