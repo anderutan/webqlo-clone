@@ -14,3 +14,16 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.carousel .control-dots .dot {
+  background-color: #869791; /* Default color */
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+.carousel .control-dots .dot.selected {
+  background-color: #90a4e4; /* Active color */
+}
