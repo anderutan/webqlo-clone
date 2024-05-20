@@ -12,7 +12,6 @@ export default {
       },
       colors: {
         'text-primary': '#1D202F',
-        'title-primary': '#1D202F',
         'btn-primary': '#1D202F',
         'btn-hover': '#A5B4FC',
         'btn-subscribe-primary': '#434c80',

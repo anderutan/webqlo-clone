@@ -3,3 +3,12 @@ export type RouteItem = {
   href: string;
   subroute?: RouteItem[];
 };
+
+export type Services = {
+  service: string;
+  description: string;
+  link: string;
+  video: string;
+  fromColor: string;
+  viaColor: string;
+};
