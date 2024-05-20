@@ -5,10 +5,12 @@ import Hero from './sections/Hero';
 import OurClient from './sections/OurClient';
 import WhatWeDo from './sections/WhatWeDo';
 import WhoWeAre from './sections/WhoWeAre';
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 function App() {
   return (
     <div className='relative w-full h-full'>
+      <FloatingWhatsApp />
       <Navbar />
       <Hero />
       <WhatWeDo />

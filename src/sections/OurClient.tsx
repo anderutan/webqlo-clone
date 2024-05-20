@@ -11,7 +11,7 @@ const OurClient = () => {
   }
 
   return (
-    <section className='w-full custom-container pt-12 pb-16'>
+    <section className='w-full custom-container pt-12 pb-16 lg:pt-20 lg:pb-28'>
       <h2 className='py-8 text-center text-2xl font-bold md:text-3xl'>
         OUR CLIENTS
       </h2>
@@ -35,7 +35,7 @@ const OurClient = () => {
             <div key={index} className='flex flex-wrap justify-center pb-12'>
               <div className='flex flex-wrap justify-center gap-5'>
                 {group.map((client, idx) => (
-                  <div key={idx} className='w-[35%] max-h-[100px]'>
+                  <div key={idx} className='w-[40%] max-h-[100px]'>
                     <img src={client.logo} alt={client.client} />
                   </div>
                 ))}

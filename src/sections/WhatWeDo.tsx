@@ -4,7 +4,7 @@ import whatWeDoList from '../shares/what-we-do';
 const WhatWeDo = () => {
   return (
     <section className='w-full custom-container pt-20 pb-28'>
-      <h2 className='text-text-primary text-center text-xl font-bold'>
+      <h2 className='text-text-primary text-center text-xl font-bold md:text-3xl md:pt-8 md:pb-20'>
         WHAT WE DO
       </h2>
       <div className='w-full max-md:flex max-md:flex-col max-md:items-center md:grid md:grid-cols-2 '>

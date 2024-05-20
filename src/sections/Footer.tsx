@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='custom-container relative'>
         <button
           href='#'
-          className='flex gap-1 items-center text-base px-4 py-2 text-white bg-indigo-800 hover:bg-indigo-400 absolute -top-16 right-0 '
+          className='flex gap-1 items-center text-base px-4 py-2 text-white bg-indigo-800 hover:bg-indigo-400 absolute -top-16 right-5 '
         >
           <IoMdMail />
           Subscribe!
@@ -17,9 +17,15 @@ const Footer = () => {
       </div>
       <div className='custom-container'>
         <div className='flex gap-5 justify-center md:justify-start'>
-          <a href='#'>Terms and Conditions</a>
-          <a href='#'>Privacy Policy</a>
-          <a href='#'>Refund Policy</a>
+          <a href='#' className='hover:underline'>
+            Terms and Conditions
+          </a>
+          <a href='#' className='hover:underline'>
+            Privacy Policy
+          </a>
+          <a href='#' className='hover:underline'>
+            Refund Policy
+          </a>
         </div>
         <div className='flex flex-col items-center gap-2 pt-5 md:grid md:grid-cols-3 md:pt-0'>
           <div className='flex gap-5 md:col-start-2 md:justify-self-center'>
@@ -39,7 +45,7 @@ const Footer = () => {
               <img
                 src={MetaLogo}
                 alt='Facebook Partner Logo'
-                className='w-16'
+                className='w-16 hover:border-2 hover:border-slate-300'
               />
             </a>
             <a href='#'>
